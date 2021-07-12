@@ -1,0 +1,38 @@
+.main-container-projects {
+    color: white;
+    padding-top: 50px;
+}
+
+.project-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.project-container > a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    padding: 10px 20px 5px 20px;
+    font-size: 40px;
+    background-color: #B22222;
+    border-radius: 10px;
+}
+
+.project-container > a:hover {
+    background-color: #5743c5;
+    transition: 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 960px) {
+    .main-container-projects {
+        padding-top: 150px;
+    }
+
+    .project-container {
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    
+  }

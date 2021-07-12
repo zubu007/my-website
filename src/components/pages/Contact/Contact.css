@@ -1,0 +1,40 @@
+.contact-container{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: flex;;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-container > p > a {
+    text-decoration: none;
+}
+
+
+
+
+.contact-container > h1 {
+    
+    font-size: 60px;
+}
+
+.contact-p {
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 960px) {
+    .contact-container{
+        width: 60%;
+        padding-top: 150px;
+    }
+
+    .main-container-about {
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 100%;
+        color: white;
+    
+    }
+  }
