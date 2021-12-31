@@ -5,6 +5,7 @@ import Contact from "./components/pages/Contact/Contact"
 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from "./components/Navbar";
+import Portfolio from "./components/pages/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/about'  component={About}/>
         <Route path='/projects' component={Projects}/>
+        <Route path='/portfolio' component={Portfolio}/>
         <Route path='/contact' component={Contact}/>
 
       </Switch>
