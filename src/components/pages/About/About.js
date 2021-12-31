@@ -1,8 +1,8 @@
 import React from 'react'
 import Footer from '../Footer/Footer'
 import {FaGithub, FaReact, FaNodeJs, FaPython} from 'react-icons/fa'
-import {SiTensorflow,SiTableau, SiKeras, SiVisualstudiocode, SiCodechef, SiMysql, SiFirebase, SiJavascript} from 'react-icons/si'
-import {DiIllustrator, DiDjango} from 'react-icons/di'
+import {SiTensorflow,SiTableau, SiKeras, SiVisualstudiocode,SiPytorch, SiCodechef,SiTypescript, SiSolidity, SiMysql, SiFirebase, SiJavascript} from 'react-icons/si'
+import {DiIllustrator, DiDjango, DiMongodb} from 'react-icons/di'
 import {RiFileExcel2Fill, RiFileWord2Fill} from 'react-icons/ri'
 import './About.css'
 
@@ -10,6 +10,8 @@ function About() {
     return (
         <> 
             <div className='main-container-about'>
+
+                {/* About Section */}
                 <div className="content">
                     <div className="content-label">
                         <h1>About</h1>
@@ -22,12 +24,22 @@ function About() {
                     </div>
                 </div>
                 
+                {/* Experience Section */}
                 <div className="content">
                     <div className="content-label">
                         <h1>Experience</h1>
                     </div>
                     <div className="content-text">
                     <h1>Work History</h1>
+                    <h4>CPSD BD Ltd. || Machine Learning Engineer Intern</h4>
+                    <h4>Aug 2021 - Nov 2021</h4>
+                    <ul>
+                        <li>Face Detection API creation, update face banks for recognition</li>
+                        <li>Optimized model with NCNN for faster performance. (4 seconds to 1.2 seconds)</li>
+                        <li>Further model pruning my Pytorch, careful Quantization to reduce model size.</li>
+                        <li>Integrated entire Face recognition on Raspberry pi.</li>
+                        <li>Integrated AWS server for recognition and reduced server time by 0.65 seconds.</li>
+                    </ul>
                     <h4>Jahangirartist.com || Web Developer/Database Manager</h4>
                     <h4>Mar 2019 - Apr 2020</h4>
                     <ul>
@@ -53,6 +65,8 @@ function About() {
                     </ul>
                     </div>   
                 </div>
+
+                {/* Awards section */}
                 <div className="content">
                     <div className="content-label">
                         <h1>Awards</h1>
@@ -69,6 +83,8 @@ function About() {
                     
                     </div>   
                 </div>
+
+                {/* Skills Section */}
                 <div className="content">
                     <div className="content-label">
                         <h1>Skills</h1>
@@ -84,16 +100,22 @@ function About() {
                     <FaNodeJs className='icons'/>
                     <DiDjango className='icons'/>
                     <SiJavascript className='icons'/>
+                    <SiTypescript className='icons'/>
+
                     <br></br>
-                    <RiFileWord2Fill className='icons'/>
+                    <SiPytorch className='icons'/>
                     <SiVisualstudiocode className='icons'/>
                     <SiCodechef className='icons'/>
                     <FaPython className='icons'/>
                     <SiMysql className='icons'/>
                     <SiTableau className='icons'/>
                     <SiFirebase className='icons'/>
+                    <SiSolidity className='icons'/>
+                    <DiMongodb className='icons'/>
                     </div>   
                 </div>
+
+                {/* Education Section */}
                 <div className="content">
                     <div className="content-label">
                         <h1>Education</h1>
@@ -101,7 +123,8 @@ function About() {
                     <div className="content-text">
                     <h1>Schooling</h1>
                     <h4>North South University || Bachelor's of Science EEE</h4>
-                    <p>CGPA: 3.12 (78%)</p>
+                    <h4>2017 - 2021</h4>
+                    <p>CGPA: 3.18 (79%)</p>
                     <p>List of important courses</p>
                     <ul>
                         <li>VLSI</li>

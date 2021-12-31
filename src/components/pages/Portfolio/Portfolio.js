@@ -4,8 +4,11 @@ import './Portfolio.css'
 
 function Portfolio() {
     return (
-        <div className='portfolio-container'>
-            <Card />
+        <div className='main-container-portfolio'>
+            <div className='card-container-portfolio'>
+                
+            </div>
+            
         </div>
     )
 }
